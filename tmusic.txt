@@ -15,11 +15,11 @@ Guitar 1: Classical Guitar - Admira 'Alba' 1/2 $259.00
 Guitar 2: Classical Guitar - Admira 'Alba' 3/4 $229.00
 Guitar 3: Classical Guitar - Admira A10 $290.00
 Guitar 4: Classical Guitar - Admira 'Fiesta' 7/8 $290.00
-Guitar 5: Classical Guitar - Admira 'Juanita' 3/4 $300.00
+Guitar 5: Classical Guitar - Admira 'Juanita' 3/4 $319.00
 Guitar 6: Classical Guitar - Valencia 1/4 $139.00
 Guitar 7: Classical Guitar - Valencia 4/4 $155.00
 Guitar 8: Classical Guitar - Admira 'Diana' $315.00
-Guitar 9: Acoustic Guitar - Takamine Acoustic Electric $679.00
+Guitar 9: Classical Guitar - Valencia 1/2 $145.00
 Guitar 10: Acoustic Guitar - Aria $295.00
 
 
@@ -51,3 +51,7 @@ Percussion 7: Djembe-7" Metallic Green $96.95
 Percussion 8: Drum Kit - DXP 'Fusion 20' Drum Kit Package - Black $699.00
 Percussion 9: Glockenspiel - Alto Suzuki Diatonic $159.95
 Percussion 10: Maracas Wooden - 9" Stripes $14.95
+
+
+For Apple Pay button
+https://developer.apple.com/documentation/apple_pay_on_the_web/displaying_apple_pay_buttons_using_css
