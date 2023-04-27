@@ -1,0 +1,44 @@
+body {
+    background-color: #ffffff;
+}
+
+.store-name {
+    color: #d4af37;
+}
+
+.header-nav {
+    color: #D99CFD;
+}
+
+.shop-homepage {
+    color: #D4AF37;
+}
+
+.information {
+    color: #000000;
+    font-family: "Helvetica", sans-serif;
+    background-image: linear-gradient(#d4af37, #FDF5DB);
+}
+
+h3.shop-homepage {
+    font-family: "Helvetica", sans-serif;
+}
+
+h1.welcome {
+    color: #ffffff;
+    font-family: "Baskerville", serif; 
+}
+
+h3.slogan {
+    color: #ffffff;
+    font-family: "Helvetica", sans-serif;
+}
+
+footer {
+    background-color: #733795;
+    color: #ffffff;
+}
+
+.homebutton {
+    background-image: linear-gradient(#D4AF37, #FDF5DB);
+}
