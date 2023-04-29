@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+
+
 a:link {
     text-decoration: none;
 }
@@ -79,6 +81,23 @@ main {
     font-style: italic;
     font-weight: bold;
     font-size: 3.25em;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.headerbutton  {
+    display: flex;
+    flex-direction: row;
+    justify-content: auto;
+    padding: 0.5rem;
+    border-style: none;
+    height: 40px;
+    width: 40px;
+}
+
+.headerbutton > li {
+    padding: 1rem;
 }
 
 .header-nav {
@@ -105,7 +124,16 @@ main {
     background-image: linear-gradient(#d4af37, #FDF5DB);
     border-radius: 10px;
     padding: 22px 160px 22px 160px;
-    font-size: 1.875em;
+    font-size: 1.6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.information > * {
+    padding: 10px;
 }
 
 h3.shop-homepage {
@@ -137,14 +165,14 @@ footer {
     font-size: 2.25em;
 }
 
-.homebutton{
+.homebutton {
     background-image: linear-gradient(#D4AF37, #FDF5DB);
     border-radius: 20px;
     border: #ffffff;
     font-family: "Helvetica", sans-serif;
     font-weight: bold;
     font-size: 2.25em;
-    padding: 12px 140px 12px 140px;
+    padding: 12px 140px 12px 140px; 
     color: #ffffff;
 }
 
@@ -174,6 +202,14 @@ footer li + li {
     margin-top: 36px;
 }
 
-img.shop-homepage {
+.categoryimage .imageitems {
+    display: flex;
+    flex-basis: 25%;
+    flex-grow: 0;
+}
 
+.categoryimage .shopnames{
+    display: flex;
+    flex-basis: 25%;
+    flex-grow: 0;
 }

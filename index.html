@@ -10,9 +10,11 @@
     <header>
         <section>
             <h3 class="store-name">Tempest Music</h3>
-            <button><img src="search.png" alt="Search button"></button>
-            <button><img src="user.png" alt="User account button"></button>
-            <button><img src="cart.png" alt="Shopping cart button"></button>
+            <ul>
+                <li class="headerbutton"><img src="search.png" alt="Search button"></li>
+                <li class="headerbutton"><img src="user.png" alt="User account button"></li>
+                <li class="headerbutton"><img src="cart.png" alt="Shopping cart button"></li>
+            </ul>
         </section>
         <section>
             <ul class="header-nav">
@@ -55,13 +57,20 @@
         <h3 class="shop-homepage">
             SHOP INSTRUMENTS
         </h3>
-        <a href="listofguitars.html"><img src="guitarhomepage.jpg" alt="Acoustic guitar"><button class="homebutton guitar">GUITARS</button></a>
-        <img src="percussionhomepage.jpg" alt="Drum kit">
-        <button class="homebuttons percussion">PERCUSSION</button>
-        <img src="pianohomepage.jpg" alt="Grand piano">
-        <button class="homebuttons pianos">PIANOS</button>
-        <img src="violinhomepage.jpg" alt="Violin">
-        <button class="homebuttons violins">VIOLINS</button>
+        <div class="categoryimage">
+            <ul class="imageitems">
+                <li><a href="listofguitars.html"><img class="guitarimage" src="guitarhomepage.jpg" alt="Acoustic guitar"></a></li>
+                <li><img class="drumsimage" src="percussionhomepage.jpg" alt="Drum kit"></li>
+                <li><img class="pianoimage" src="pianohomepage.jpg" alt="Grand piano"></li>
+                <li><img class="violinimage" src="violinhomepage.jpg" alt="Violin"></li>
+            </ul>
+            <ul class="shopnames">
+                <li><button class="homebutton guitar">GUITARS</button></li>
+                <li><button class="homebuttons percussion">PERCUSSION</button></li>
+                <li><button class="homebuttons pianos">PIANOS</button></li>
+                <li><button class="homebuttons violins">VIOLINS</button></li>
+            </ul>
+        </div>
     </main>
     <footer>
         <ul class="left-side-footer">
