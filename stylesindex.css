@@ -1,13 +1,74 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
 body {
     background-color: #ffffff;
 }
 
+main {
+    margin: 20px 20px 0px 20px;
+}
+
 .store-name {
     color: #d4af37;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3.25em;
 }
 
 .header-nav {
     color: #D99CFD;
+    text-decoration: none;
+    font-size: 2.375em;
 }
 
 .shop-homepage {
@@ -18,6 +79,9 @@ body {
     color: #000000;
     font-family: "Helvetica", sans-serif;
     background-image: linear-gradient(#d4af37, #FDF5DB);
+    border-radius: 10px;
+    padding: 0px 160px 0px 160px;
+    font-size: 1.875em;
 }
 
 h3.shop-homepage {
@@ -27,18 +91,40 @@ h3.shop-homepage {
 h1.welcome {
     color: #ffffff;
     font-family: "Baskerville", serif; 
+    font-weight: bold;
+    font-size: 3.125em;
 }
 
 h3.slogan {
     color: #ffffff;
     font-family: "Helvetica", sans-serif;
+    font-size: 2.5em;
 }
 
 footer {
     background-color: #733795;
     color: #ffffff;
+    padding: 20px 20px 20px 20px;
 }
 
 .homebutton {
     background-image: linear-gradient(#D4AF37, #FDF5DB);
+    border-radius: 20px;
+    border: #ffffff;
+    font-family: "Helvetica", sans-serif;
+}
+
+.homebuttons {
+    background-image: linear-gradient(#D4AF37, #FDF5DB);
+    border-radius: 20px;
+    border: #ffffff;
+    font-family: "Helvetica", sans-serif;
+}
+
+footer li + li {
+    margin-top: 36px;
+}
+
+img.shop-homepage {
+
 }
