@@ -163,6 +163,12 @@ footer {
     font-weight: bold;
     font-family: "Helvetica", sans-serif;
     font-size: 2.25em;
+    display: flex;
+    flex-direction: row;
+}
+
+footer ul + ul {
+    margin-left: auto;
 }
 
 .homebutton {
@@ -204,12 +210,8 @@ footer li + li {
 
 .categoryimage .imageitems {
     display: flex;
-    flex-basis: 25%;
-    flex-grow: 0;
 }
 
 .categoryimage .shopnames{
     display: flex;
-    flex-basis: 25%;
-    flex-grow: 0;
 }
