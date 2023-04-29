@@ -47,6 +47,22 @@ table {
 	border-spacing: 0;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #D99CFD;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
 
 
 
@@ -69,6 +85,14 @@ main {
     color: #D99CFD;
     text-decoration: none;
     font-size: 2.375em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.header-nav > li {
+    padding: 1rem;
 }
 
 .shop-homepage {
@@ -80,38 +104,48 @@ main {
     font-family: "Helvetica", sans-serif;
     background-image: linear-gradient(#d4af37, #FDF5DB);
     border-radius: 10px;
-    padding: 0px 160px 0px 160px;
+    padding: 22px 160px 22px 160px;
     font-size: 1.875em;
 }
 
 h3.shop-homepage {
     font-family: "Helvetica", sans-serif;
+    padding-top: 60px;
+    font-size: 2.5em;
 }
 
 h1.welcome {
     color: #ffffff;
     font-family: "Baskerville", serif; 
     font-weight: bold;
-    font-size: 3.125em;
+    font-size: 1.667em;
 }
 
 h3.slogan {
     color: #ffffff;
     font-family: "Helvetica", sans-serif;
-    font-size: 2.5em;
+    font-size: 1.333em;
 }
 
 footer {
     background-color: #733795;
     color: #ffffff;
     padding: 20px 20px 20px 20px;
+    margin-top: 60px;
+    font-weight: bold;
+    font-family: "Helvetica", sans-serif;
+    font-size: 2.25em;
 }
 
-.homebutton {
+.homebutton{
     background-image: linear-gradient(#D4AF37, #FDF5DB);
     border-radius: 20px;
     border: #ffffff;
     font-family: "Helvetica", sans-serif;
+    font-weight: bold;
+    font-size: 2.25em;
+    padding: 12px 140px 12px 140px;
+    color: #ffffff;
 }
 
 .homebuttons {
@@ -119,6 +153,21 @@ footer {
     border-radius: 20px;
     border: #ffffff;
     font-family: "Helvetica", sans-serif;
+    font-weight: bold;
+    font-size: 2.25em;
+    color: #ffffff;
+}
+
+.percussion {
+    padding: 12px 101px 12px 101px;
+}
+
+.pianos {
+    padding: 12px 151px 12px 151px;
+}
+
+.violins {
+    padding: 12px 148px 12px 148px;
 }
 
 footer li + li {
