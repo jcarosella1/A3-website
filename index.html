@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="stylesindex.css">
+    <script src="scripts.js"></script>
     <title> Tempest Music </title>
 </head>
 <body>
@@ -19,7 +20,20 @@
         <section>
             <ul class="header-nav">
                 <li><a href="index.html">HOME</a></li>
-                <li>SHOP</li>
+                <li>
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">SHOP</button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <p>Shop all instruments</p>
+                            <a href="listofguitars.html">Guitars</a>
+                            <p>Pianos</p>
+                            <p>Percussion</p>
+                            <p>Violins</p>
+                            <p>Sheet Music</p>
+                            <p>Accessories</p>
+                        </div>
+                    </div>
+                </li>
                 <li>GALLERY</li>
                 <li>ABOUT US</li>
                 <li>FAQs</li>
@@ -80,7 +94,7 @@
             <li>FAQs</li>
         </ul>
         <ul class="store-details">
-            <li class="address">Find us at: 56 Ley Street, Como, WA 6152</li>
+            <li class="address"><p>Find us at:</p><p>56 Ley Street,</p><p>Como, WA 6152</p></li>
             <li class="phone-num">Ph: 08 9450 3539</li>
         </ul>
     </footer>
