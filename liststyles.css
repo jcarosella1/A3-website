@@ -160,3 +160,27 @@ footer li + li {
 .icons-homepage > li {
     margin: 0.5em;
 }
+
+.top-of-page {
+    display: flex;
+    flex-direction: row;
+}
+
+.top-of-page > h5 {
+    align-items: flex-end;
+}
+
+.product-name {
+    color: #d4af37;
+    font-family: "Helvetica", sans-serif;
+    font-weight: bold;
+    font-size: 46px;
+    flex-basis: 75%;
+}
+
+.side-note {
+    color: #000000;
+    font-family: "Helvetica", sans-serif;
+    font-size: 30px;
+    margin: 0.5em;
+}
