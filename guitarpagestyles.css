@@ -160,3 +160,19 @@ footer li + li {
 .icons-homepage > li {
     margin: 0.5em;
 }
+
+.product {
+    font-family: "Helvetica", sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 10em;
+}
+
+.product img {
+    border: 1px solid #000000;
+    margin-left: 3em;
+    width: 40%;
+}
+
+
