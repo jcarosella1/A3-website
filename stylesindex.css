@@ -82,22 +82,18 @@ main {
     font-weight: bold;
     font-size: 3.25em;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     padding-top: 20px;
 }
 
 .headerbutton  {
     display: flex;
     flex-direction: row;
-    justify-content: auto;
+    justify-content: auto; 
     padding: 0.5rem;
     border-style: none;
     height: 40px;
     width: 40px;
-}
-
-.headerbutton > li {
-    padding: 1rem;
 }
 
 .header-nav {
@@ -183,18 +179,6 @@ footer ul + ul {
     color: #ffffff;
 }
 
-.percussion {
-    padding: 12px 101px 12px 101px;
-}
-
-.pianos {
-    padding: 12px 151px 12px 151px;
-}
-
-.violins {
-    padding: 12px 148px 12px 148px;
-}
-
 footer li + li {
     margin-top: 36px;
 }
@@ -226,3 +210,14 @@ footer li + li {
     width: 350px;
 }
 
+.icons-homepage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+}
+
+.icons-homepage > li {
+    margin: 0.5em;
+}
