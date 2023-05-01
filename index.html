@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="stylesindex.css">
-    <script src="scripts.js"></script>
     <title> Tempest Music </title>
 </head>
 <body>
@@ -20,20 +19,7 @@
         <section>
             <ul class="header-nav">
                 <li><a href="index.html">HOME</a></li>
-                <li>
-                    <div class="dropdown">
-                        <button onclick="myFunction()" class="dropbtn">SHOP</button>
-                        <div id="myDropdown" class="dropdown-content">
-                            <p>Shop all instruments</p>
-                            <a href="listofguitars.html">Guitars</a>
-                            <p>Pianos</p>
-                            <p>Percussion</p>
-                            <p>Violins</p>
-                            <p>Sheet Music</p>
-                            <p>Accessories</p>
-                        </div>
-                    </div>
-                </li>
+                <li>SHOP</li>
                 <li>GALLERY</li>
                 <li>ABOUT US</li>
                 <li>FAQs</li>
@@ -71,19 +57,43 @@
         <h3 class="shop-homepage">
             SHOP INSTRUMENTS
         </h3>
-        <div class="categoryimage">
-            <ul class="imageitems">
-                <li><a href="listofguitars.html"><img class="guitarimage" src="guitarhomepage.jpg" alt="Acoustic guitar"></a></li>
-                <li><img class="drumsimage" src="percussionhomepage.jpg" alt="Drum kit"></li>
-                <li><img class="pianoimage" src="pianohomepage.jpg" alt="Grand piano"></li>
-                <li><img class="violinimage" src="violinhomepage.jpg" alt="Violin"></li>
-            </ul>
-            <ul class="shopnames">
-                <li><button class="homebutton guitar">GUITARS</button></li>
-                <li><button class="homebuttons percussion">PERCUSSION</button></li>
-                <li><button class="homebuttons pianos">PIANOS</button></li>
-                <li><button class="homebuttons violins">VIOLINS</button></li>
-            </ul>
+        <div class="categories cluster cluster--end-aligned">
+            <div class="product-category stack">
+                <ul class="category-image-name">
+                    <li><a href="listofguitars.html"><img class="category-image" src="guitarhomepage.jpg" alt="Acoustic guitar"></a></li>
+                    <li><button class="category-name">GUITARS</button></li>
+                </ul> 
+            </div>
+            <div class="product-category stack">
+                <ul class="category-image-name">
+                    <li><img class="category-image" src="percussionhomepage.jpg" alt="Drum kit"></li>
+                    <li><button class="category-name">PERCUSSION</button></li>
+                </ul>
+            </div>
+            <div class="product-category stack">
+                <ul class="category-image-name">
+                    <li><img class="category-image" src="pianohomepage.jpg" alt="Grand piano"></li>
+                    <li><button class="category-name">PIANOS</button></li>
+                </ul>
+            </div>
+            <div class="product-category stack">
+                <ul class="category-image-name">
+                    <li><img class="category-image" src="violinhomepage.jpg" alt="Violin"></li>
+                    <li><button class="category-name">VIOLINS</button></li>
+                </ul>
+            </div>
+            <div class="product-category stack">
+                <ul class="category-image-name">
+                    <li><img class="category-image" src="trumpethomepage.jpeg" alt="Trumpet"></li>
+                    <li><button class="category-name">TRUMPETS</button></li>
+                </ul>
+            </div>
+            <div class="product-category stack">
+                <ul class="category-image-name">
+                    <li><img class="category-image" src="flutehomepage.jpeg" alt="Flute"></li>
+                    <li><button class="category-name">FLUTES</button></li>
+                </ul>
+            </div>
         </div>
     </main>
     <footer>
