@@ -75,3 +75,88 @@ body {
 main {
     margin: 20px 20px 0px 20px;
 }
+
+.store-name {
+    color: #d4af37;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3.25em;
+    display: flex;
+    justify-content: center; 
+    padding-top: 20px;
+}
+
+.headerbutton  {
+    display: flex;
+    flex-direction: row;
+    justify-content: auto; 
+    padding: 0.5rem;
+    border-style: none;
+    height: 40px;
+    width: 40px;
+}
+
+.header-nav {
+    color: #D99CFD;
+    text-decoration: none;
+    font-size: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.5rem;
+    transform: translateX(-1em);
+}
+
+.header-nav > li {
+    padding: 1rem;
+}
+
+nav li {
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+nav ul ul {
+    transform: scale(1,0);
+    transform-origin: top center;
+    position: absolute;
+    top: 100%;
+    transition: 0.3s;
+}
+
+nav li:hover ul{
+    transform: scale(1,1);
+    transition: 0.3s;
+}
+
+footer {
+    background-color: #733795;
+    color: #ffffff;
+    padding: 20px 20px 20px 20px;
+    margin-top: 60px;
+    font-weight: bold;
+    font-family: "Helvetica", sans-serif;
+    font-size: 2.25em;
+    display: flex;
+    flex-direction: row;
+}
+
+footer ul + ul {
+    margin-left: auto;
+}
+
+footer li + li {
+    margin-top: 36px;
+}
+
+.icons-homepage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+}
+
+.icons-homepage > li {
+    margin: 0.5em;
+}

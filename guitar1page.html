@@ -4,26 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport"
         content="width=device-width,inital-scale=1.0">
+    <link rel="stylesheet" href="guitarpagestyles.css">
     <title>Tempest Music</title>
 </head>
 <body>
     <header>
         <section>
             <h3 class="store-name">Tempest Music</h3>
-            <button><img src="search.png" alt="Search button"></button>
-            <button><img src="user.png" alt="User account button"></button>
-            <button><img src="cart.png" alt="Shopping cart button"></button>
+            <ul class="icons-homepage">
+                <li class="headerbutton"><img src="search.png" alt="Search button"></li>
+                <li class="headerbutton"><img src="user.png" alt="User account button"></li>
+                <li class="headerbutton"><img src="cart.png" alt="Shopping cart button"></li>
+            </ul>
         </section>
-        <section>
+        <nav>
             <ul class="header-nav">
                 <li><a href="index.html">HOME</a></li>
-                <li>SHOP</li>
+                <li>SHOP
+                    <ul class="dropdown">
+                        <li>Shop all instruments</li>
+                        <li><a href="listofguitars.html">Guitars</a></li>
+                        <li>Pianos</li>
+                        <li>Percussion</li>
+                        <li>Violins</li>
+                        <li>Trumpets</li>
+                        <li>Flutes</li>
+                        <li>Sheet Music</li>
+                        <li>Accessories</li>
+                    </ul>
+                </li>
                 <li>GALLERY</li>
                 <li>ABOUT US</li>
                 <li>FAQs</li>
                 <li>CONTACT US</li>
             </ul>
-        </section>
+        </nav>
     </header>
     <main>
         <img src="guitar1.jpeg" alt="Classical Guitar">
