@@ -182,5 +182,58 @@ footer li + li {
     color: #000000;
     font-family: "Helvetica", sans-serif;
     font-size: 30px;
-    margin: 0.5em;
+    margin: 0.7em;
+}
+
+.gold {
+    border-radius: 10px;
+    background-image: linear-gradient(#D4AF37, #FDF5DB);
+    font-family: "Helvetica", sans-serif;
+    font-size: 1.6em;
+    padding: 5px 5px 5px 5px;
+    width: 250px;
+    border: none;
+}
+
+.purple {
+    border-radius: 10px;
+    background-image: linear-gradient(#D99CFD, #E1D8E6);
+    font-family: "Helvetica", sans-serif;
+    font-size: 1.6em;
+    padding: 5px 5px 5px 5px;
+    width: 250px;
+    border: none;
+}
+
+.cluster{
+    padding-left: 3.5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-basis: 25%;
+}
+
+.cluster > * {
+    margin-top: 2em;
+}
+
+.stack{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    flex-basis: 25%;
+}
+
+.cluster--end-aligned{
+    align-items: flex-end;
+}
+
+.listing-container img {
+    width: 250px;
+    height: 250px;
+    border: 1px solid #000000;
+    object-fit: contain;
 }
