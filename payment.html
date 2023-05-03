@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport"
        content="width=device-width,inital-scale=1.0">
+    <link rel="stylesheet" href="payment.css">
     <title>Tempest Music</title>
 </head>
 <body>
@@ -13,50 +14,69 @@
         </div>
     </header>
     <main>
-        <section class="express">
-            <h4>EXPRESS CHECKOUT</h4>
-            <button>Apple Pay</button>
-            <button>PayPal</button>
-        </section>
-        <section class="total">
-            <p>SUBTOTAL</p>
-            <p>$590.00</p>
-            <p>Shipping costs</p>
-            <p>$12.00</p>
-            <h2>TOTAL</h2>
-            <h2>$602.00</h2>
-        </section>
+        <div class="heading-payment">
+            <section class="express">
+                <h4>EXPRESS CHECKOUT</h4>
+                <img class="checkout-btn" src="checkoutbuttons.jpg" alt="checkout buttons">
+            </section>
+            <section class="total">
+                <div class="sub first">
+                    <h4>SUBTOTAL</h4>
+                    <p>$590.00</p>
+                </div>
+                <div class="sub second">
+                    <h4>Shipping costs</h4>
+                    <p>$12.00</p>
+                </div>
+                <div class="sub third">
+                    <h4>TOTAL</h4>
+                    <p>$602.00</p>
+                </div>
+            </section>
+        </div>
         <div class="otheroption">
             <p>OR</p>
         </div>
         <section class="checkout">
             <h4>CONTACT INFORMATION</h4>
+            <label for="email">Email</label>
             <input type="text" class="email" name="email" placeholder="Email">
             <p>Shipping Address</p>
+            <label for="country">Country</label>
             <input type="text" class="country" name="country" placeholder="Country">
+            <label for="name">Full Name</label>
             <input type="text" class="name" name="fullname" placeholder="Full Name">
+            <label for="address">Address</label>
             <input type="text" class="address" name="address" placeholder="Address">
             <div class="checkout">
+                <label for="suburb">Suburb</label>
                 <input type="text" class="suburb" name="suburb" placeholder="suburb">
             </div>
             <div class="checkout">
+                <label for="state">State</label>
                 <input type="text" class="state" name="state" placeholder="State">
             </div>
             <div>
+                <label for="postcode">Postcode</label>
                 <input type="text" class="postcode" name="postcode" placeholder="Postcode">
             </div>
             <div>
+                <label for="phonenum">Phone Number</label>
                 <input type="text" class="phonenum" name="phonenum" placeholder="Phone number">
             </div>
         </section>
         <section class="payment">
             <h4>PAYMENT DETAILS</h4>
+            <label for="cardname">Card Name</label>
             <input type="text" class="cardname" name="cardname" placeholder="Card name">
+            <label for="cardnum">Card Number</label>
             <input type="text" class="cardnum" name="cardnum" placeholder="Card number">
             <div class="payment">
+                <label for="expiry">Expiry</label>
                 <input type="text" class="expiry" name="expiry" placeholder="Expiry MM/YYYY">
             </div>
             <div>
+                <label for="cvv">CVV</label>
                 <input type="text" class="cvv" name="cvv" placeholder="CVV">
             </div>
         </section>
@@ -68,7 +88,7 @@
             <button>PLACE ORDER</button>
         </section>
         <section class="return">
-            <a href="cart.html"> < Return to cart</p>
+            <a href="cart.html"> < Return to cart</a>
         </section>
     </main>
 </body>

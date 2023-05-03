@@ -41,18 +41,30 @@
         </nav>
     </header>
     <main>
-        <img src="guitar1.jpeg" alt="Classical Guitar">
-        <p class="product-name">Classical Guitar - Admira 'Alba' 1/2</p>
-        <h3 class="product-page">Price</h3>
-        <p>$259.00</p>
-        <h3 class="product-page">Quantity</h3>
-        <button>- 1 +</button>
-        <button>ADD TO CART</button>
-        <h2>DESCRIPTION</h2>
-        <p class="description">This is a guitar that is perfect for beginners and young learners. Designed by Spanish guitarists, at an affordable price, this guitar does not compromise on quality. It is an easy to use instrument with a gloss finish and made from pine.</p>
-        <a href="listofguitars.html">
-            Back to Guitars >>>
-        </a>
+        <div class="product">
+            <img src="guitar1.jpeg" alt="Classical Guitar">
+            <div class="product-info">
+                <p class="product-name">Classical Guitar - Admira 'Alba' 1/2</p>
+                <div class="price">
+                    <h3 class="product-page">Price:</h3>
+                    <p>$259.00</p>
+                </div>
+                <div class="quantity-input">
+                    <label for="quantity" class="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1">
+                </div>
+                <div>
+                    <button class="add">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+        <div class="extra">
+            <h2>DESCRIPTION</h2>
+            <p class="description">This is a guitar that is perfect for beginners and young learners. 
+                Designed by Spanish guitarists, at an affordable price, this guitar does not compromise on quality. 
+                It is an easy to use instrument with a gloss finish and made from pine.</p>
+            <a href="listofguitars.html">Back to Guitars >>></a>
+        </div>
     </main>
     <footer>
         <ul class="left-side-footer">
