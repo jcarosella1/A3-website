@@ -261,3 +261,18 @@ footer li + li {
 .listing .listing-container a:visited {
     color: #000000;
 }
+
+.heading-all {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15em;
+}
+
+.heading-all .store-name {
+    margin-left: 10em;
+}
+
+.heading-all .icons-homepage {
+    margin-top: 1.25em;
+}

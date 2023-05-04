@@ -240,3 +240,18 @@ footer li + li {
 .icons-homepage > li {
     margin: 0.5em;
 }
+
+.heading-all {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15em;
+}
+
+.heading-all .store-name {
+    margin-left: 10em;
+}
+
+.heading-all .icons-homepage {
+    margin-top: 1.25em;
+}
