@@ -250,11 +250,11 @@ footer li + li {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 15em;
+    gap: 19em;
 }
 
 .heading-all .store-name {
-    margin-left: 10em;
+    margin-left: 9.5em;
 }
 
 .heading-all .icons-homepage {
