@@ -124,11 +124,169 @@ main {
     font-size: 1.75em;
     font-weight: bold;
     margin-top: 0.75em;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 .otheroption {
-    margin-left: 10em;
-    margin-top: 1.5em;
+    margin-left: 11.25em;
+    margin-top: 1em;
+    margin-bottom: 1em;
     font-size: 1.25em;
     font-weight: bold;
+}
+
+.checkout h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 4em;
+    margin-bottom: 1em;
+}
+
+.email {
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+#input {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 30em;
+    margin-top: 0.25em;
+}
+
+.input-labels p {
+    font-size: 1.25em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.country {
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5em;
+}
+
+.address {
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5em;
+}
+
+.details-input {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5em;
+    font-size: 1em;
+}
+
+.input-labels-details {
+    display: flex;
+    flex-direction: column;
+}
+
+#input-small {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 9.66em;
+    margin-top: 0.25em;
+    font-size: 1em;
+    margin-right: 0.25em;
+}
+
+.phonenum {
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5em;
+}
+
+.payment h4 {
+    margin-top: 1.25em;
+    margin-bottom: 0.5em;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.cardname {
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5em;
+}
+
+.cardnum {
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5em;
+}
+
+#payment-input {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 30em;
+    margin-top: 0.25em;
+}
+
+.payment-small {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5em;
+    font-size: 1em;
+}
+
+.payment-details {
+    display: flex;
+    flex-direction: column;
+}
+
+#input-payment {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 14.75em;
+    margin-top: 0.25em;
+    font-size: 1em;
+    margin-right: 0.25em;
+}
+
+.final-total {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    gap: 8.25em;
+    width: 15.1em;
+    padding: 1em 0em 1em 0em;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.placeorder {
+    background-image: linear-gradient(#D4AF37, #FDF5DB);
+    font-size: 1.5em;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 0.25em 6.75em 0.25em 6.75em;
+    margin-bottom: 1em;
+}
+
+.return {
+    font-size: 1em;
 }
