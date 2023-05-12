@@ -125,3 +125,10 @@ main {
     font-weight: bold;
     margin-top: 0.75em;
 }
+
+.otheroption {
+    margin-left: 10em;
+    margin-top: 1.5em;
+    font-size: 1.25em;
+    font-weight: bold;
+}
