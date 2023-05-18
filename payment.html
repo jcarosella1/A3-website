@@ -37,36 +37,37 @@
         <div class="otheroption">
             <p>OR</p>
         </div>
+        <form action="orderconfirmation.html">
         <section class="checkout">
             <h4>CONTACT INFORMATION</h4>
             <label for="email" class="email">Email</label>
-            <input type="text" id="input" class="email" name="email" placeholder="Email">
+            <input type="email" id="input" class="email" name="email" placeholder="Email" required>
             <div class="input-labels">
                 <p>Shipping Address</p>
                 <label for="country" class="country">Country</label>
-                <input type="text" id="input" class="country" name="country" placeholder="Country">
+                <input type="text" id="input" class="country" name="country" placeholder="Country" required min-length="2" pattern="[a-z|A-Z| |-]*">
                 <label for="name" class="name">Full Name</label>
-                <input type="text" id="input" class="name" name="fullname" placeholder="Full Name">
+                <input type="text" id="input" class="name" name="fullname" placeholder="Full Name" required minlength="2" pattern="[a-z|A-Z| |-]*">
                 <label for="address" class="address">Address</label>
-                <input type="text" id="input" class="address" name="address" placeholder="Address">
+                <input type="text" id="input" class="address" name="address" placeholder="Address" required pattern="[[0-9]|a-z|A-Z| |-]*">
             </div>
             <div class="details-input">
                 <div class="input-labels-details">
                     <label for="suburb">Suburb</label>
-                    <input type="text" id="input-small" class="suburb" name="suburb" placeholder="Suburb">
+                    <input type="text" id="input-small" class="suburb" name="suburb" placeholder="Suburb" required pattern="[a-z|A-Z| |-]*">
                 </div>
                 <div class="input-labels-details">
                     <label for="state">State</label>
-                    <input type="text" id="input-small" class="state" name="state" placeholder="State">
+                    <input type="text" id="input-small" class="state" name="state" placeholder="State" required pattern="[a-z|A-Z| |-]*">
                 </div>
                 <div class="input-labels-details">
                     <label for="postcode">Postcode</label>
-                    <input type="text" id="input-small" class="postcode" name="postcode" placeholder="Postcode">
+                    <input type="text" id="input-small" class="postcode" name="postcode" placeholder="Postcode" required pattern="[a-z|A-Z| |-|/(|/)|[0-9]| ]*">
                 </div>
             </div>
             <div class="input-labels">
                 <label for="phonenum" class="phonenum">Phone Number</label>
-                <input type="text" id="input" class="phonenum" name="phonenum" placeholder="Phone number">
+                <input type="tel" id="input" class="phonenum" name="phonenum" placeholder="Phone number" required pattern="[/(|/)|-|[0-9]| ]">
             </div>
         </section>
         <section class="payment">
@@ -93,6 +94,7 @@
         <section>
             <button class="placeorder">PLACE ORDER</button>
         </section>
+        </form>
         <section class="return">
             <a href="cart.html"> < Return to cart</a>
         </section>
