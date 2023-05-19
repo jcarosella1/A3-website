@@ -265,3 +265,11 @@ nav {
     border-top: 1px solid #000000;
     border-bottom: 1px solid #000000;
 }
+
+.add:hover {
+    box-shadow: 0.2em 0.2em 0.5em #000000;
+}
+
+.add:active {
+    background-image: linear-gradient(#D4AF37, #FDF5DB);
+}

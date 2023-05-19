@@ -1,16 +1,15 @@
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
-
-window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-        var dropdowns = document.getElementsByClassName("dropdown-content");
-        var i;
-        for (i = 0; i < dropdowns.length; i++) {
-            var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
-            }
-        }
-    }
-}
+const button = document.querySelector(".add");
+const done = document.querySelector(".done");
+console.log(button);
+let added = false;
+button.addEventListener('click',()=>{
+  if(added){
+    done.style.transform = "translate(-110%) skew(-40deg)";
+    added = false;
+  }
+  else{
+    done.style.transform = "translate(0px)";
+    added = true;
+  }
+    
+});

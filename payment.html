@@ -73,17 +73,17 @@
         <section class="payment">
             <h4>PAYMENT DETAILS</h4>
             <label for="cardname" class="cardname">Card Name</label>
-            <input type="text" id="payment-input" class="cardname" name="cardname" placeholder="Card name">
+            <input type="text" id="payment-input" class="cardname" name="cardname" placeholder="Card name" required patter="[a-z|A-Z| |-]*">
             <label for="cardnum" class="cardnum">Card Number</label>
-            <input type="text" id="payment-input" class="cardnum" name="cardnum" placeholder="Card number">
+            <input type="text" id="payment-input" class="cardnum" name="cardnum" placeholder="Card number" required pattern="[[0-9]| |-]*">
             <div class="payment-small">
                 <div class="payment-details">
                     <label for="expiry" class="expiry">Expiry</label>
-                    <input type="text" id="input-payment" class="expiry" name="expiry" placeholder="Expiry MM/YYYY">
+                    <input type="text" id="input-payment" class="expiry" name="expiry" placeholder="Expiry MM/YYYY" required maxlength="7" pattern="[[0-9]| |/]*">
                 </div>
                 <div class="payment-details">
                     <label for="cvv" class="cvv">CVV</label>
-                    <input type="text" id="input-payment" class="cvv" name="cvv" placeholder="CVV">
+                    <input type="text" id="input-payment" class="cvv" name="cvv" placeholder="CVV" required maxlength="3" pattern="[[0-9]| ]*">
                 </div>
             </div>
         </section>
