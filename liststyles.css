@@ -55,7 +55,7 @@ a:link {
 
 a:visited {
     text-decoration: none;
-    color: #D99CFD;
+    color: #454545;
 }
 
 a:hover {
@@ -77,12 +77,10 @@ main {
 }
 
 .store-name {
-    color: #d4af37;
+    color: #913175;
     font-style: italic;
     font-weight: bold;
     font-size: 3.25em;
-    display: flex;
-    justify-content: center; 
     padding-top: 20px;
 }
 
@@ -97,7 +95,7 @@ main {
 }
 
 .header-nav {
-    color: #D99CFD;
+    color: #454545;
     text-decoration: none;
     font-size: 2em;
     display: flex;
@@ -130,7 +128,7 @@ nav li:hover ul{
 }
 
 footer {
-    background-color: #733795;
+    background-color: #454545;
     color: #ffffff;
     padding: 20px 20px 20px 20px;
     margin-top: 60px;
@@ -171,7 +169,7 @@ footer li + li {
 }
 
 .product-name {
-    color: #d4af37;
+    color: #913175;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
     font-size: 46px;
@@ -179,28 +177,30 @@ footer li + li {
 }
 
 .side-note {
-    color: #000000;
+    color: #454545;
     font-family: Helvetica, sans-serif;
     font-size: 30px;
     margin: 0.7em;
 }
 
-.gold {
+.view {
     border-radius: 10px;
-    background-image: linear-gradient(#D4AF37, #FDF5DB);
+    background-color: #ffffff;
+    color: #454545;
     font-family: Helvetica, sans-serif;
-    font-size: 1.6em;
-    padding: 5px 5px 5px 5px;
+    font-size: 1em;
+    padding: 3px 3px 3px 3px;
     width: 250px;
-    border: none;
+    border: 1px solid #454545;
 }
 
-.purple {
+.add {
     border-radius: 10px;
-    background-image: linear-gradient(#D99CFD, #E1D8E6);
+    background-color: #913175;
+    color: #ffffff;
     font-family: Helvetica, sans-serif;
-    font-size: 1.6em;
-    padding: 5px 5px 5px 5px;
+    font-size: 1em;
+    padding: 3px 3px 3px 3px;
     width: 250px;
     border: none;
 }
@@ -234,7 +234,7 @@ footer li + li {
 .listing-container img {
     width: 250px;
     height: 250px;
-    border: 1px solid #000000;
+    border: 1px solid #454545;
     object-fit: contain;
     align-items: center;
 }
@@ -259,18 +259,20 @@ footer li + li {
 }
 
 .listing .listing-container a:visited {
-    color: #000000;
+    color: #454545;
 }
 
 .heading-all {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    gap: 19em;
+    justify-content: space-between;
 }
 
 .heading-all .store-name {
-    margin-left: 9.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 1em;
 }
 
 .heading-all .icons-homepage {
@@ -278,6 +280,6 @@ footer li + li {
 }
 
 nav {
-    border-top: 1px solid #000000;
-    border-bottom: 1px solid #000000;
+    border-top: 1px solid #454545;
+    border-bottom: 1px solid #454545;
 }
