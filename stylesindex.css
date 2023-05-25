@@ -106,7 +106,7 @@ main {
 }
 
 .header-nav > li {
-    padding: 1rem;
+    padding-left: 5rem;
 }
 
 nav li {
@@ -144,6 +144,7 @@ nav li:hover ul{
     align-items: center;
     text-align: center;
     width: 30em;
+    height: 25em;
 }
 
 .information > * {
@@ -264,11 +265,14 @@ nav {
 .opening {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
 .front-image {
-    flex-grow: 1;
+    width: 50em;
 }
+
+
 
 
