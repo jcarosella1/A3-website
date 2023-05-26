@@ -77,11 +77,12 @@ main {
 }
 
 .store-name {
-    color: #913145;
+    color: #913175;
     font-style: italic;
     font-weight: bold;
     font-size: 3.25em;
     padding-top: 20px;
+    font-family: "Arizonia", cursive;
 }
 
 .headerbutton  {
@@ -128,7 +129,7 @@ nav li:hover ul{
 }
 
 .shop-homepage {
-    color: #913145;
+    color: #913175;
 }
 
 .information {
