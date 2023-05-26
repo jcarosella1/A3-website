@@ -273,6 +273,11 @@ nav {
     width: 50em;
 }
 
+.dropdown {
+    border: 1px solid #454545;
+    box-shadow: 0.2em 0.5em 0.5em #454545;
+}
+
 
 
 

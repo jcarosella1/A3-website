@@ -276,3 +276,8 @@ nav {
     background-color: #454545;
     color: #ffffff;
 }
+
+.dropdown {
+    border: 1px solid #454545;
+    box-shadow: 0.2em 0.5em 0.5em #454545;
+}
