@@ -167,6 +167,7 @@ footer li + li {
     flex-direction: row;
     gap: 10em;
     margin-top: 3em;
+    flex-wrap: wrap;
 }
 
 .product img {
@@ -205,6 +206,9 @@ footer li + li {
 
 .quantity-input {
     margin-bottom: 3em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .add {
@@ -281,4 +285,13 @@ nav {
 .dropdown {
     border: 1px solid #454545;
     box-shadow: 0.2em 0.5em 0.5em #454545;
+}
+
+#quantity {
+    margin-left: 1em;
+    height: 1.5em;
+    border: 1px solid #454545;
+    border-radius: 5px;
+    padding: 0.5em;
+    font-size: 0.75em;
 }
