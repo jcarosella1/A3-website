@@ -213,6 +213,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     padding-top: 1em;
     border-bottom: 1px solid #454545;
     padding-bottom: 1em;
@@ -236,6 +237,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     padding-top: 1em;
     border-bottom: 1px solid #454545;
     padding-bottom: 1em;
