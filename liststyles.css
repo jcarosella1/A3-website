@@ -163,6 +163,7 @@ footer li + li {
 .top-of-page {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .top-of-page > h5 {
