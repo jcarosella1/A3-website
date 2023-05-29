@@ -294,7 +294,38 @@ nav {
     h3.shop-homepage {
         font-size: 1.75em;
     }
-    
+    .front-image {
+        width:  30em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .front-image {
+        width: 20em;
+    }
+    .opening {
+        display: flex;
+        flex-direction: row;
+    }
+    .information {
+        font-size: 0.75em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .front-image {
+        width: 30em;
+    }
+    .opening {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1em;
+    }
+    .information {
+        width: 30em;
+        height: 25em;
+        font-size: 1em;
+    }
 }
 
 
