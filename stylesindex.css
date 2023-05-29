@@ -155,7 +155,7 @@ nav li:hover ul{
 h3.shop-homepage {
     font-family: Helvetica, sans-serif;
     padding-top: 0.5em;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 h1.welcome {
@@ -284,6 +284,17 @@ nav {
         text-align: center;
         font-size: 1em;
     }
+    .headerbutton {
+        height: 30px;
+        width: 30px;
+    }
+    .store-name {
+        font-size: 2.75em;
+    }
+    h3.shop-homepage {
+        font-size: 1.75em;
+    }
+    
 }
 
 
