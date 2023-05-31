@@ -298,3 +298,18 @@ main {
     border: 1px solid #454545;
     box-shadow: 0.2em 0.5em 0.5em #454545;
 }
+
+@media screen and (max-width:1100px) {
+    .header-nav {
+        flex-wrap: wrap;
+        text-align: center;
+        font-size: 1em;
+    }
+    .headerbutton {
+        height: 30px;
+        width: 30px;
+    }
+    .store-name {
+        font-size: 2.75em;
+    }
+}
