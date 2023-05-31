@@ -87,9 +87,10 @@ main {
 
 .checkout-btn {
     border: none;
-    width: 30em;
-    height: 5em;
+    width: 22em;
+    height: 3.5em;
     object-fit: scale-down;
+    margin-left: 4em;
 }
 
 .express h4 {
@@ -101,30 +102,35 @@ main {
 
 .heading-payment {
     display: flex;
-    flex-direction: row;
-    gap: 25em;
+    flex-direction: column;
 }
 
 .sub {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 5em;
+}
+
+.total {
+    margin-bottom: 1.5em;
 }
 
 .first {
     font-size: 1.25em;
+    width: 23.15em;
 }
 
 .second {
     font-size: 1em;
     margin-top: 0.5em;
+    width: 27.55em;
 }
 
 .third {
     font-size: 1.75em;
     font-weight: bold;
     margin-top: 0.75em;
+    width: 17.5em;
     border-top: 1px solid #454545;
     border-bottom: 1px solid #454545;
     padding-top: 0.5em;
