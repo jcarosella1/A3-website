@@ -331,12 +331,21 @@ nav {
 
 @media screen and (max-width: 300px) {
     .front-image {
-        width: 10em;
+        width: 5em;
     }
     .information {
-        width: 15em;
-        height: 10em;
+        width: 10em;
+        height: 5em;
         font-size: 0.5em;
+    }
+    .header-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1em;
+    }
+    .headerbutton {
+        padding: 0.25em;
     }
 }
 
