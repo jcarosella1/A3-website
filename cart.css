@@ -314,14 +314,3 @@ main {
         font-size: 2.75em;
     }
 }
-
-@media screen and (max-width: 300px) {
-    .header-nav {
-        display: flex;
-        flex-direction: column;
-        font-size: 1em;
-    }
-    .headerbutton {
-        padding: 0.25em;
-    }
-}
