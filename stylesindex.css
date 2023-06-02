@@ -51,6 +51,7 @@ table {
 
 a:link {
     text-decoration: none;
+    color: #454545;
 }
 
 a:visited {
@@ -328,5 +329,14 @@ nav {
     }
 }
 
-
+@media screen and (max-width: 300px) {
+    .front-image {
+        width: 10em;
+    }
+    .information {
+        width: 15em;
+        height: 10em;
+        font-size: 0.5em;
+    }
+}
 
